@@ -1,0 +1,23 @@
+### =========================================================================
+### LOCAL DEVELOPMENT TESTING (localhost)
+### =========================================================================
+
+### Get all contacts locally
+GET http://localhost:3000/contacts
+
+
+### Get a single contact locally by ID 
+### (Replace the ID below with an actual _id string from your Atlas database)
+GET http://localhost:3000/contacts/6a445c3d72a678a24addd813
+
+
+### =========================================================================
+### PRODUCTION TESTING (Render Deployed)
+### =========================================================================
+
+### Get all contacts from live Render server
+GET https://cse-341-project1-yw83.onrender.com/contacts
+
+
+### Get a single contact from live Render server by ID
+GET https://cse-341-project1-yw83.onrender.com/contacts/6a445c3d72a678a24addd813
